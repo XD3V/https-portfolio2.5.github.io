@@ -39,6 +39,7 @@ function Projects() {
 
         {/* First Image */}
         <Flex
+
           direction="column"
           justifyContent="center"
           alignItems="center"
@@ -75,6 +76,19 @@ function Projects() {
                   shadow="md"
 
                 >
+                  <ModalHeader
+                    mb={3}
+                    fontSize={{ base: "1", md: "2xl" }}
+
+                    textAlign={{ base: "center", sm: "left" }}
+                    color={useColorModeValue("black")}
+                    lineHeight="shorter"
+                    letterSpacing="tight"
+
+                  >I created this scene by using the unreal engine 5 and Megascans to create a Nordic beach.
+                    Once I finished creating the scene I began post-production by using photoshop for color correction and balance.
+
+                  </ModalHeader>
                   <ModalBody
                     bg="gray.300"
                     ref={initialRef}
@@ -160,6 +174,19 @@ function Projects() {
                   shadow="md"
 
                 >
+
+                  <ModalHeader
+                    mb={3}
+                    fontSize={{ base: "1", md: "2xl" }}
+
+                    textAlign={{ base: "center", sm: "left" }}
+                    color={useColorModeValue("black")}
+                    lineHeight="shorter"
+                    letterSpacing="tight"
+
+                  >I used the same assets and software as the Rocky Beach,
+                    but I change the camera position along with the directional lighting to make the rocky cliffs my focal point. </ModalHeader>
+
                   <ModalBody
                     bg="gray.300"
 
@@ -247,6 +274,21 @@ function Projects() {
                   shadow="md"
 
                 >
+
+
+                  <ModalHeader
+                    mb={3}
+                    fontSize={{ base: "1", md: "2xl" }}
+
+                    textAlign={{ base: "center", sm: "left" }}
+                    color={useColorModeValue("black")}
+                    lineHeight="shorter"
+                    letterSpacing="tight"
+
+                  >
+                    I wanted more of a cinematic feel, so I added some lens flares. 
+                    I also moved the camera to a low angle position providing a sense of depth and scale to the rock formation. </ModalHeader>
+
                   <ModalBody
                     bg="gray.300"
 

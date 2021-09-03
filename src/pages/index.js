@@ -1,11 +1,13 @@
 import React from "react";
 import { chakra, Box, useColorModeValue, Icon, Image, Img } from "@chakra-ui/react";
 import Footer from '../components/Footer'
+import { FaColumns } from "react-icons/fa";
 //import Nordic from "../../Images/NordicOceanScene1.jpg"
 export default function App() {
   const bg = useColorModeValue("#E1E5E6", "gray.800");
   return (
-    <Box pos="relative" overflow="hidden" bg={bg} mt={250}>
+    <Box pos="relative" overflow="hidden" bg={bg} mt={{base: 32, sm: 16, md: 20, lg: 280, xl: 240}}
+    >
       <Box maxW="7xl" mx="auto">
         <Box
           pos="relative"
