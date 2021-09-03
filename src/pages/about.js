@@ -60,7 +60,7 @@ const About = () => {
         mx="auto"
         py={4}
         px={4}
-        bg={useColorModeValue("white.200", "gray.800")}
+        bg={useColorModeValue("white.800", "gray.800")}
         opacity=".6"
         // bgGradient='linear(to-b, white, green.500@0.3)'
         shadow="lg"
