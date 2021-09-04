@@ -78,7 +78,7 @@ function Projects() {
                 >
                   <ModalHeader
                     mb={3}
-                    fontSize={{ base: "1", md: "2xl" }}
+                    fontSize={{ base: "1xl", md: "2xl" }}
 
                     textAlign={{ base: "center", sm: "left" }}
                     color={useColorModeValue("black")}
@@ -92,7 +92,7 @@ function Projects() {
                   <ModalBody
                     bg="gray.300"
                     ref={initialRef}
-                    w={{ base: 400, sm: 470, md: 700, lg: 700, xl: 950 }}
+                    w={{ base: 375, sm: 470, md: 700, lg: 700, xl: 950 }}
                     rounded="lg"
                     shadow="md"
                     bgSize="cover"
@@ -106,7 +106,7 @@ function Projects() {
 
 
 
-                <Button onClick={onFirstModalClose}>Close</Button>
+            
               </Modal>
 
 
@@ -177,7 +177,7 @@ function Projects() {
 
                   <ModalHeader
                     mb={3}
-                    fontSize={{ base: "1", md: "2xl" }}
+                    fontSize={{ base: "1xl", md: "2xl" }}
 
                     textAlign={{ base: "center", sm: "left" }}
                     color={useColorModeValue("black")}
@@ -190,7 +190,7 @@ function Projects() {
                   <ModalBody
                     bg="gray.300"
 
-                    w={{ base: 400, sm: 470, md: 700, lg: 700, xl: 950 }}
+                    w={{ base: 375, sm: 470, md: 700, lg: 700, xl: 950 }}
                     rounded="lg"
                     shadow="md"
                     bgSize="cover"
@@ -204,7 +204,7 @@ function Projects() {
 
 
 
-                <Button onClick={onSecondModalClose}>Close</Button>
+              
               </Modal>
 
             </Button>
@@ -268,7 +268,7 @@ function Projects() {
                 />
                 <ModalContent
 
-                  h={{ base: 300, sm: 300, md: 400, lg: 400, xl: 900 }}
+                  h={{ base: 350, sm: 300, md: 400, lg: 400, xl: 900 }}
                   mr={{ base: -5, sm: 3, md: 250, lg: 250, xl: 500 }}
                   rounded="lg"
                   shadow="md"
@@ -278,7 +278,7 @@ function Projects() {
 
                   <ModalHeader
                     mb={3}
-                    fontSize={{ base: "1", md: "2xl" }}
+                    fontSize={{ base: "1xl", md: "2xl" }}
 
                     textAlign={{ base: "center", sm: "left" }}
                     color={useColorModeValue("black")}
@@ -292,7 +292,7 @@ function Projects() {
                   <ModalBody
                     bg="gray.300"
 
-                    w={{ base: 400, sm: 470, md: 700, lg: 700, xl: 950 }}
+                    w={{ base: 375, sm: 470, md: 700, lg: 700, xl: 950 }}
                     rounded="lg"
                     shadow="md"
                     bgSize="cover"
@@ -306,7 +306,7 @@ function Projects() {
 
 
 
-                <Button onClick={onThirdModalClose}>Close</Button>
+                
               </Modal>
 
 
